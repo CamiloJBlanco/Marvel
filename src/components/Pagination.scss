@@ -1,0 +1,29 @@
+table {
+    padding: 2rem;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: center;
+    tbody {
+        background-color: #c82333;
+    }
+    .selected {
+        a {
+            color: rgba(38, 38, 38, 1);
+        }
+    }
+    a {
+        color: white;
+        &:hover {
+            color: rgba(38, 38, 38, 1);
+            text-decoration: none;
+        }
+    }
+    .number {
+        font-weight: normal;
+        font-size: small;
+        vertical-align: top;
+        text-align: center;
+    }
+}

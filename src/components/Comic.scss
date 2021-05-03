@@ -1,0 +1,57 @@
+.comic {
+  color: white;
+  .title {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: grey;
+  }
+  img {
+    margin: 0 1rem 1rem 0;
+    display: inline-block;
+    max-width: 60%;
+  }
+  .main-info {
+    margin: 1rem 0;
+    text-align: justify;
+  }
+  .left-info {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    font-size: larger;
+  }
+  .creators {
+    padding: 1rem 0;
+    color: grey;
+  }
+  .name-span span {
+    font-weight: bolder;
+    color: grey;
+  }
+  .characters {
+    color: grey;
+    li {
+      list-style-type: none;
+      text-align: left;
+    }
+
+    h5 {
+      font-weight: bolder;
+      font-size: 17px;
+    }
+  }
+  .little-marvel {
+    background: #c82333;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0 4px;
+    a {
+        color: white;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+  }
+}

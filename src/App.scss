@@ -1,0 +1,14 @@
+.header {
+    text-align: center;
+}
+.footer {
+    text-align: end;
+    color: grey;
+}
+
+.comicNotSelected{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
