@@ -2,6 +2,8 @@
 
 The objective of the challenge is to build a Front-End that interact with Marvel's API.
 
+[Deployed with Netlify](https://nostalgic-mcnulty-2ec958.netlify.app)
+
 ## Project built using:
 
 - JavaScript
